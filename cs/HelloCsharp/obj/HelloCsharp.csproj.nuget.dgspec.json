@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/vinicius10011/Programming/lang-studies/cs-lang/HelloCsharp/HelloCsharp.csproj": {}
+    "/home/vinicius10011/Programming/lang-studies/cs/HelloCsharp/HelloCsharp.csproj": {}
   },
   "projects": {
-    "/home/vinicius10011/Programming/lang-studies/cs-lang/HelloCsharp/HelloCsharp.csproj": {
+    "/home/vinicius10011/Programming/lang-studies/cs/HelloCsharp/HelloCsharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/vinicius10011/Programming/lang-studies/cs-lang/HelloCsharp/HelloCsharp.csproj",
+        "projectUniqueName": "/home/vinicius10011/Programming/lang-studies/cs/HelloCsharp/HelloCsharp.csproj",
         "projectName": "HelloCsharp",
-        "projectPath": "/home/vinicius10011/Programming/lang-studies/cs-lang/HelloCsharp/HelloCsharp.csproj",
+        "projectPath": "/home/vinicius10011/Programming/lang-studies/cs/HelloCsharp/HelloCsharp.csproj",
         "packagesPath": "/home/vinicius10011/.nuget/packages/",
-        "outputPath": "/home/vinicius10011/Programming/lang-studies/cs-lang/HelloCsharp/obj/",
+        "outputPath": "/home/vinicius10011/Programming/lang-studies/cs/HelloCsharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/vinicius10011/.nuget/NuGet/NuGet.Config"
