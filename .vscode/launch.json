@@ -2,14 +2,16 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "build active file",
+      "label": "build C/C++ active file",
       "type": "shell",
-      "command": "g++",
+      "command": "${fileExtname == '.c' ? 'gcc' : 'g++'}",
       "args": [
+        "-Wall",
+        "-Wextra",
         "-g",
         "${file}",
         "-o",
-        "${fileDirname}/${fileBasenameNoExtension}"
+        "${fileDirname}/build/${fileBasenameNoExtension}.exe"
       ],
       "group": {
         "kind": "build",
@@ -22,21 +24,14 @@
   ],
   "configurations": [
     {
-      "type": "java",
-      "name": "HelloWorld",
-      "request": "launch",
-      "mainClass": "HelloWorld",
-      "projectName": "lang-studies_c766faf"
-    },
-    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": false,
-      "cwd": "/home/vinicius10011/Programming/lang-studies/cpp/001",
-      "program": "/home/vinicius10011/Programming/lang-studies/cpp/001/build/Debug/outDebug",
+      "externalConsole": true,
+      "cwd": "c:/Users/marco/Programming/working-on/prog-lang-std/c/yt-clang-2025",
+      "program": "c:/Users/marco/Programming/working-on/prog-lang-std/c/yt-clang-2025/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

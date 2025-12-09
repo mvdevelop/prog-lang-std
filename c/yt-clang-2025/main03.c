@@ -7,7 +7,6 @@
 // char (1 byte) | %c for printing
 
 int main (
-
+  
   return 0;
 );
-
