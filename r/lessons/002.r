@@ -1,5 +1,5 @@
 
-# 002 Operadores Aritméticos básicos
+# 002 - Operadores Aritméticos básicos
 
 a <- 10
 b <- 5
