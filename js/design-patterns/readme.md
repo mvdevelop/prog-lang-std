@@ -1,42 +1,210 @@
 
-# 🚀 Design Patterns em JavaScript
+# JavaScript Design Patterns Examples
 
-Este repositório contém implementações didáticas de Padrões de Projeto (Design Patterns) utilizando a linguagem JavaScript. O objetivo é demonstrar como aplicar soluções estruturadas para problemas comuns de desenvolvimento de software.
+Este repositório contém exemplos práticos de **Design Patterns implementados em JavaScript**, com foco em aplicações reais no desenvolvimento **Node.js e Frontend**.
 
-## 📋 Padrões Implementados
+O objetivo é demonstrar como aplicar padrões de projeto para melhorar:
 
-### 1. Singleton (Criação)
-Garante que uma classe tenha apenas uma única instância e fornece um ponto global de acesso a ela.
-- **Caso de uso:** Gerenciadores de configuração, logs do sistema ou conexões com bancos de dados.
+* organização do código
+* reutilização
+* manutenção
+* escalabilidade
 
-### 2. Observer (Comportamental)
-Define uma dependência um-para-muitos entre objetos, de modo que quando um objeto muda de estado, todos os seus dependentes são notificados.
-- **Caso de uso:** Sistemas de notificações, newsletters e manipulação de eventos (DOM).
+Os exemplos são simples, didáticos e independentes, podendo ser usados como referência ou material de estudo.
 
-### 3. Factory (Criação)
-Define uma interface para criar um objeto, mas deixa as subclasses decidirem qual classe instanciar.
-- **Caso de uso:** Criação dinâmica de diferentes tipos de cursos ou usuários em um sistema escolar.
+---
 
-## 🛠️ Como Executar
+## 📚 Design Patterns Implementados
 
-Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em seu Ubuntu.
+### 1. Singleton
 
-1. Abra o terminal.
-2. Navegue até a pasta do projeto:
-   ```bash
-   cd ~/Programming/my-projects/javascript/
-Execute o arquivo com o Node:
+Garante que apenas **uma única instância de uma classe** exista durante a execução da aplicação.
 
-Bash
-node design-patterns.js
+Uso comum:
 
-## 📚 Requisitos de Graduação
-Este projeto faz parte dos estudos práticos para a disciplina de Rapid Applications Development (RAD), focando em:
+* conexões com banco de dados
+* gerenciadores de configuração
+* loggers
 
-Organização de código.
+Arquivo:
 
-Programação Orientada a Objetos (POO) em JS.
+```
+singleton.js
+```
 
-Escalabilidade e manutenção de sistemas.
+---
 
-📝 Desenvolvido por: mvdevelop
+### 2. Factory
+
+Centraliza a **criação de objetos**, escondendo a lógica de instância.
+
+Uso comum:
+
+* criação de serviços
+* criação de usuários com papéis diferentes
+* instância dinâmica de classes
+
+Arquivo:
+
+```
+factory.js
+```
+
+---
+
+### 3. Observer
+
+Permite que múltiplos objetos **observem mudanças de estado** em outro objeto.
+
+Base para sistemas de eventos.
+
+Uso comum:
+
+* event systems
+* notificações
+* gerenciamento de estado
+
+Arquivo:
+
+```
+observer.js
+```
+
+---
+
+### 4. Module Pattern
+
+Encapsula lógica e mantém **variáveis privadas**, expondo apenas o necessário.
+
+Uso comum:
+
+* bibliotecas JavaScript
+* utilitários
+* organização de código frontend
+
+Arquivo:
+
+```
+module.js
+```
+
+---
+
+### 5. Strategy
+
+Permite trocar **algoritmos dinamicamente** em tempo de execução.
+
+Uso comum:
+
+* sistemas de pagamento
+* validações diferentes
+* cálculos com múltiplas regras
+
+Arquivo:
+
+```
+strategy.js
+```
+
+---
+
+### 6. Decorator
+
+Adiciona funcionalidades a funções ou objetos **sem modificar o código original**.
+
+Uso comum:
+
+* logging
+* autenticação
+* monitoramento
+
+Arquivo:
+
+```
+decorator.js
+```
+
+---
+
+### 7. Builder
+
+Permite criar objetos complexos **passo a passo**, deixando a construção mais clara e flexível.
+
+Uso comum:
+
+* criação de objetos complexos
+* configuração de entidades
+* construção de queries
+
+Arquivo:
+
+```
+builder.js
+```
+
+---
+
+## ▶️ Como executar os exemplos
+
+Certifique-se de ter o **Node.js instalado**.
+
+Execute qualquer exemplo com:
+
+```bash
+node nome-do-arquivo.js
+```
+
+Exemplo:
+
+```bash
+node singleton.js
+```
+
+---
+
+## 📁 Estrutura do projeto
+
+```
+design-patterns-js/
+│
+├── singleton.js
+├── factory.js
+├── observer.js
+├── module.js
+├── strategy.js
+├── decorator.js
+├── builder.js
+│
+└── README.md
+```
+
+---
+
+## 🎯 Objetivo
+
+Este projeto foi criado para:
+
+* estudo de **Design Patterns**
+* referência rápida para desenvolvedores
+* demonstração de boas práticas em JavaScript
+
+---
+
+## 🚀 Tecnologias
+
+* JavaScript (ES6+)
+* Node.js
+
+---
+
+## 📖 Referências
+
+* *Design Patterns: Elements of Reusable Object-Oriented Software* (Gang of Four)
+* Documentação oficial do JavaScript
+* Boas práticas de arquitetura de software
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido para fins de estudo e demonstração de **Design Patterns em JavaScript**.
