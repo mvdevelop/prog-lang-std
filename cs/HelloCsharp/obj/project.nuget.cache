@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AF1TjOGtW3x7b3lgiYmnPZh41tmbt/O60S7i8R7lhPvbu3/ueXROn4xUXwSP2BgucfrsJbKZ9k+a+HY9GhURsA==",
+  "dgSpecHash": "6y8/+71HX64=",
   "success": true,
-  "projectFilePath": "/home/vinicius10011/Programming/my-projects/prog-lang-std/cs/HelloCsharp/HelloCsharp.csproj",
+  "projectFilePath": "C:\\Users\\marco\\Programming\\prog-lang-std\\cs\\HelloCsharp\\HelloCsharp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
