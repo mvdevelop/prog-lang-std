@@ -1,95 +1,181 @@
 
-📘 Programming Languages Studies
+# 📚 Programming Language Studies
 
-Welcome to my Programming Languages Studies repository!
-This project contains my notes, exercises, examples, and small projects created while learning and practicing multiple programming languages and development tools.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Language Count](https://img.shields.io/badge/Languages-14-blue.svg)](https://github.com/mvdevelop/lang-studies)
+[![Last Commit](https://img.shields.io/github/last-commit/mvdevelop/lang-studies)](https://github.com/mvdevelop/lang-studies)
 
-The goal is to build a solid, organized reference that I can expand over time—covering everything from basic syntax to advanced concepts across several languages.
+Um repositório abrangente para estudos de linguagens de programação, implementando algoritmos, padrões de design e projetos práticos em múltiplas linguagens.
 
-🚀 Technologies & Tools Covered
-🧩 Languages
+## 📁 Estrutura do Projeto
+lang-studies/
+├── .vscode/ # Configurações do VS Code
+├── assembly/ # Programas em Assembly
+├── c/ # Programas em C (task-manager)
+├── cpp/ # Programas em C++ (design patterns)
+├── cs/ # Programas em C# (tdd-jest)
+├── go/ # Programas em Go
+├── java/ # Programas em Java
+├── js/ # Programas em JavaScript
+├── kt/ # Programas em Kotlin
+├── objectPascal/ # Programas em Object Pascal (SOLID)
+├── python/ # Programas em Python
+├── r/ # Programas em R (design patterns)
+├── ts/ # Programas em TypeScript
+├── prog-lang-std.sln # Solução Visual Studio - C++
+├── lang-studies.sln # Solução Visual Studio - C#
+└── README.md # Este arquivo
 
-C — basics, pointers, structs, compilation, memory management
+text
 
-C++ — OOP, STL, templates, modern C++ (C++11 → C++20)
+## 🚀 Linguagens e Projetos
 
-Python — scripts, OOP, modules, virtual environments
+### 📝 **Assembly**
+- Programas de baixo nível explorando arquitetura de computadores
 
-C# (.NET) — console apps, classes, LINQ, async/await
+### 🔧 **C**
+- **Task Manager**: Sistema de gerenciamento de tarefas implementado em C
 
-Kotlin — JVM apps, functions, null safety, OOP
+### 🎨 **C++**
+- **Design Patterns**: Implementações de padrões de design em C++
+  - Singleton
+  - Factory
+  - Observer
+  - Strategy
+  - E outros padrões GOF
 
-📂 Repository Structure
-./
-├── c/
-│   ├── basics/
-│   ├── pointers/
-│   └── projects/
-├── cpp/
-│   ├── oop/
-│   ├── stl/
-│   └── projects/
-├── python/
-│   ├── scripts/
-│   ├── modules/
-│   └── projects/
-├── csharp/
-│   ├── basics/
-│   ├── oop/
-│   └── dotnet-projects/
-├── kotlin/
-│   ├── basics/
-│   └── projects/
-│ 
-└── README.md
+### ⚡ **C#**
+- **TDD with Jest**: Práticas de Test-Driven Development
+  - FizzBuzz
+  - Password Validator
+  - Shopping Cart
 
+### 🐹 **Go**
+- Programas em GoLang explorando concorrência e simplicidade
 
-(Structure will evolve as I add more content.)
+### ☕ **Java**
+- Programas em Java com foco em POO e boas práticas
 
-🎯 Objectives
+### 📜 **JavaScript**
+- Projetos em JavaScript puro e Node.js
 
-Build a multi-language reference for future projects
+### 🎯 **Kotlin**
+- Programas em Kotlin para Android e JVM
 
-Practice syntax, paradigms, and tooling
+### 📐 **Object Pascal**
+- **SOLID Principles**: Implementações dos princípios SOLID em Object Pascal
+  - Single Responsibility
+  - Open/Closed
+  - Liskov Substitution
+  - Interface Segregation
+  - Dependency Inversion
 
-Compare different programming styles
+### 🐍 **Python**
+- **RAD (Rapid Application Development)**: Desenvolvimento rápido de aplicações
 
-Store exercises, challenges, and experiments
+### 📊 **R**
+- **Design Patterns**: Implementações de padrões de design em R para análise de dados
 
-Keep track of my learning progress over time
+### 📘 **TypeScript**
+- Programas em TypeScript com tipagem estática
 
-🛠 Tools Used
+## 🛠️ Tecnologias e Ferramentas
 
-Ubuntu Linux
+- **IDEs**: Visual Studio, VS Code, IntelliJ
+- **Gerenciadores**: npm, pip, cargo, go mod
+- **Testes**: Jest, JUnit, pytest
+- **Build**: MSBuild, make, cmake
 
-GCC / G++
+## 📊 Estatísticas do Repositório
 
-.NET SDK
+| Linguagem | Última Atualização | Status |
+|-----------|-------------------|--------|
+| Assembly | 4 months ago | 🟢 Ativo |
+| C | 4 months ago | 🟢 Ativo |
+| C++ | 3 months ago | 🟢 Ativo |
+| C# | 8 minutes ago | 🟢 Ativo |
+| Go | 5 months ago | 🟡 Manutenção |
+| Java | 10 hours ago | 🟢 Ativo |
+| JavaScript | 3 days ago | 🟢 Ativo |
+| Kotlin | 4 months ago | 🟡 Manutenção |
+| Object Pascal | 2 months ago | 🟢 Ativo |
+| Python | 2 months ago | 🟢 Ativo |
+| R | 2 months ago | 🟢 Ativo |
+| TypeScript | 2 months ago | 🟢 Ativo |
 
-OpenJDK + Kotlin compiler
+## 🎯 Objetivos de Estudo
 
-Python 3 + pip
+- ✅ **TDD (Test-Driven Development)**: Implementação em C#
+- ✅ **SOLID Principles**: Implementação em Object Pascal
+- ✅ **Design Patterns**: Implementações em C++ e R
+- ✅ **Task Management**: Implementação em C
+- 🔄 **Clean Architecture**: Em progresso
+- 🔄 **Microservices**: Em planejamento
+- 🔄 **Functional Programming**: Em progresso
 
-PostgreSQL + pgAdmin
+## 🚦 Como Executar os Projetos
 
-VS Code / IntelliJ / CLion (optional)
+### C# (TDD Jest)
+```bash
+cd cs/tdd-jest
+dotnet restore
+dotnet test
+C++ (Design Patterns)
+bash
+cd cpp/design-patterns
+mkdir build && cd build
+cmake ..
+make
+Python
+bash
+cd python/rad
+pip install -r requirements.txt
+python main.py
+Java
+bash
+cd java
+javac Main.java
+java Main
+JavaScript/TypeScript
+bash
+cd js
+npm install
+npm start
+📈 Progresso de Aprendizado
+Fundamentos de Programação
 
-📘 How to Use
+Programação Orientada a Objetos
 
-Clone the repository:
+Test-Driven Development
 
-git clone https://github.com/mvdevelop/prog-lang-std.git
-cd prog-lang-std
+SOLID Principles
 
+Design Patterns
 
-Navigate into any language folder and explore the examples or run the programs according to each folder’s instructions.
+Clean Architecture
 
-📈 Progress
+Domain-Driven Design
 
-This repository is actively updated as I continue learning.
-Stay tuned for improvements, refactoring, and new mini-projects.
+Event-Driven Architecture
 
-🤝 Contributions
+Microservices
 
-This is a personal learning repo, but suggestions are always welcome.
-Feel free to open issues with tips, improvements, or recommended topics.
+🤝 Contribuições
+Este repositório é pessoal para estudos, mas contribuições são bem-vindas!
+
+Fork o projeto
+
+Crie sua branch de feature (git checkout -b feature/AmazingFeature)
+
+Commit suas mudanças (git commit -m 'Add some AmazingFeature')
+
+Push para a branch (git push origin feature/AmazingFeature)
+
+Abra um Pull Request
+
+📝 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+📧 Contato mvdevelop
+
+⭐️ Deixe uma estrela se este repositório foi útil para seus estudos!
