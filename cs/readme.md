@@ -34,10 +34,9 @@ Use o código com cuidado.
 IDE: Visual Studio 2022 / VS Code
 Runtime: .NET 8
 Linguagem: C# 12
-Dicas extras para C#:
+
+## 💡 Dicas extras para C#:
 NuGet: Se você usar pacotes externos (como Newtonsoft.Json), adicione uma seção listando as principais bibliotecas estudadas.
-
 LINQ: Essa é a "cereja do bolo" do C#. Quando chegar lá, crie uma pasta exclusiva, pois é um diferencial enorme no currículo.
-
 Badge: Se quiser deixar visual, adicione este código no topo do README para exibir o ícone do C#:
 ![C#](https://shields.io)
